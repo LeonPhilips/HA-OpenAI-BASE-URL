@@ -1,0 +1,19 @@
+{
+  "domain": "groq_cloud_link",
+  "name": "Groq Cloud Link",
+  "codeowners": [
+    "@LeonPhilips"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "conversation"
+  ],
+  "requirements": [
+    "openai==2.14.0"
+  ],
+  "integration_type": "service",
+  "documentation": "https://github.com/LeonPhilips/GroqCloudLink",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/LeonPhilips/GroqCloudLink/issues",
+  "version": "0.1.0"
+}
